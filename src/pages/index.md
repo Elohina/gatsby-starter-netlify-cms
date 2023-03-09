@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Quinciañere, ten paciencia
+title: Quinceañere, ten paciencia
 image: /img/home-jumbotron.jpg
-heading: Quinciañere, ten paciencia
+heading: Quinceañere, ten paciencia
 subheading: Este fanzine está en construcción
 mainpitch:
   title: Why Kaldi
