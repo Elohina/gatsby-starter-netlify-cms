@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar-brand">
           <Link to="/" className="navbar-item" title="Logo">
-            <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
+            Quinze
           </Link>
           {/* Hamburger menu */}
           <button
@@ -49,16 +49,16 @@ const Navbar = () => {
             </Link>
             </li>
             <li className="navbar-item" style={{padding: "0px"}}>
-            <Link className="navbar-item" to="/contact">
+            {/* <Link className="navbar-item" to="/contact">
               Contact
             </Link>
             </li>
             <li className="navbar-item" style={{padding: "0px"}}>
             <Link className="navbar-item" to="/contact/examples">
               Form Examples
-            </Link>
+            </Link> */}
             </li>
-          <li className="navbar-end has-text-centered">
+          {/* <li className="navbar-end has-text-centered">
             <a
               className="navbar-item"
               href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
@@ -69,7 +69,7 @@ const Navbar = () => {
                 <img src={github} alt="Github" />
               </span>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
