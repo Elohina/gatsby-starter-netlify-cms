@@ -25,9 +25,9 @@ export const IndexPageTemplate = ({
       <FullWidthImage title={title} subheading={subheading} />
       <section className="section section--gradient">
         <div className="container">
-          <div className="section">
+          {/* <div className="section"> */}
             <div className="columns">
-              <div className="column is-10 is-offset-1">
+              <div className="column">
                 <div className="content">
                   {/* <div className="content">
                     <div className="tile">
@@ -45,8 +45,8 @@ export const IndexPageTemplate = ({
                       <p>{description}</p>
                     </div>
                   </div> */}
-                  {/* <Features gridItems={intro.blurbs} />
-                  <div className="columns">
+                  <Features gridItems={intro.blurbs} />
+                  {/* <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/products">
                         See all products
@@ -66,7 +66,7 @@ export const IndexPageTemplate = ({
                   </div> */}
                 </div>
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </div>
       </section>
@@ -133,6 +133,7 @@ export const pageQuery = graphql`
         description
         intro {
           blurbs {
+            title
             image {
               childImageSharp {
                 gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
