@@ -89,12 +89,8 @@ export default function FullWidthImage(props) {
         {subheading && (
           <div
             style={{
-              // By using the same grid area for both, they are stacked on top of each other
-              // gridArea: '1/1',
-              position: 'relative',
-              // This centers the other elements inside the hero component
               placeItems: 'center',
-              display: 'grid',
+              display: 'block',
               alignItems: 'center',
               marginTop: '2rem',
               height: '30%',
@@ -103,14 +99,14 @@ export default function FullWidthImage(props) {
           >
             {subheading && (
               <h4
-                className='is-size-2-mobile is-size-5-tablet is-size-5-widescreen'
                 style={{
                   lineHeight: '1.5',
                   padding: '2rem',
                   margin: '0 auto',
                   textAlign: 'center',
                   width: '40%',
-                  fontWeight: '300'
+                  fontWeight: '300',
+                  fontSize: '1.2rem'
                 }}
               >
                 {subheading}

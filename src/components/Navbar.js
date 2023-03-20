@@ -50,7 +50,6 @@ const Navbar = () => {
                 paddingLeft: '5rem',
                 paddingRight: '5rem',
               }}
-              to='/about'
             >
               espacios
             </Link>
@@ -64,7 +63,6 @@ const Navbar = () => {
                 paddingLeft: '5rem',
                 paddingRight: '5rem',
               }}
-              to='/products'
             >
               dimensiones
             </Link>
@@ -79,7 +77,6 @@ const Navbar = () => {
                 paddingLeft: '5rem',
                 paddingRight: '5rem',
               }}
-              to='/blog'
             >
               tiempos
             </Link>
