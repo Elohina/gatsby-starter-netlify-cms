@@ -10,8 +10,11 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
+.credits ul li
+  list-style: none
+
 .stripesBackground
-      background: repeating-linear-gradient(white, white, white 19px, rgb(218, 12, 37) 22px)
+      background: repeating-linear-gradient(white, white, white 15px, #f8cdd4 17px)
 
 .navbar .navbar-menu
   box-shadow: none !important
@@ -20,25 +23,28 @@ $black: #2b2523
   display: grid
   grid-auto-rows: min-content
   grid-template-columns: 1fr 1fr
-  gap: 30px 30px
+  gap: 40px 40px
   align-content: start
   article
     width: 100%
 
 .card
   border: 2px solid #da0c25
-  box-shadow: none
-  border-radius: 1.8rem
+  box-shadow: 3px 3px 0em 0px #da0c25, 0px 0px 0 0px #da0c25 !important
+  border-radius: 1.8rem !important
 
 .card .card-title
+  font-size: 1.3rem
   border-bottom: 2px solid #da0c25
-  padding: 1rem
+  padding: 1.5rem
   h4
     margin-bottom: 0
     color: #da0c25
 
 .card .card-body
-  padding: 2.5rem
+  font-size: 1.2rem
+  line-height: 1.5
+  padding: 2.7rem
   color: #da0c25
 
 .content .taglist
@@ -102,6 +108,11 @@ $black: #2b2523
 a.navbar-item
   color: #da0c25
   font-weight: bold
+  font-size: 1.4rem
+
+a.navbar-item:hover
+  color: #da0c25 !important
+
 
 .navbar-item .icon
   color: $primary

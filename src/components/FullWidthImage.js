@@ -18,7 +18,7 @@ export default function FullWidthImage(props) {
         className='margin-top-0'
         style={{
           display: 'block',
-          height: '90vh'
+          height: '100vh',
         }}
       >
         {img?.url ? (
@@ -96,18 +96,21 @@ export default function FullWidthImage(props) {
               placeItems: 'center',
               display: 'grid',
               alignItems: 'center',
-              marginTop: '3rem',
+              marginTop: '2rem',
+              height: '30%',
+              fontStyle: 'italic',
             }}
           >
             {subheading && (
               <h4
                 className='is-size-2-mobile is-size-5-tablet is-size-5-widescreen'
                 style={{
-                  lineHeight: '1',
+                  lineHeight: '1.5',
                   padding: '2rem',
                   margin: '0 auto',
                   textAlign: 'center',
                   width: '40%',
+                  fontWeight: '300'
                 }}
               >
                 {subheading}

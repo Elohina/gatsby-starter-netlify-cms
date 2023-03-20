@@ -46,7 +46,7 @@ const Navbar = () => {
               className='navbar-item'
               style={{
                 padding: '0px',
-                borderLeft: '1px solid #da0c25',
+                borderLeft: '2px solid #da0c25',
                 paddingLeft: '5rem',
                 paddingRight: '5rem',
               }}
@@ -60,7 +60,7 @@ const Navbar = () => {
               className='navbar-item'
               style={{
                 padding: '0px',
-                borderLeft: '1px solid #da0c25',
+                borderLeft: '2px solid #da0c25',
                 paddingLeft: '5rem',
                 paddingRight: '5rem',
               }}
@@ -74,8 +74,8 @@ const Navbar = () => {
               className='navbar-item'
               style={{
                 padding: '0px',
-                borderLeft: '1px solid #da0c25',
-                borderRight: '1px solid #da0c25',
+                borderLeft: '2px solid #da0c25',
+                borderRight: '2px solid #da0c25',
                 paddingLeft: '5rem',
                 paddingRight: '5rem',
               }}
@@ -84,28 +84,6 @@ const Navbar = () => {
               tiempos
             </Link>
           </li>
-          {/* <li className='navbar-item' style={{ padding: '0px', borderLeft: '1px solid #da0c25'}}> */}
-          {/* <Link className="navbar-item" to="/contact">
-              Contact
-            </Link>
-            </li>
-            <li className="navbar-item" style={{padding: "0px"}}>
-            <Link className="navbar-item" to="/contact/examples">
-              Form Examples
-            </Link> */}
-          {/* </li> */}
-          {/* <li className="navbar-end has-text-centered">
-            <a
-              className="navbar-item"
-              href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="icon">
-                <img src={github} alt="Github" />
-              </span>
-            </a>
-          </li> */}
         </ul>
       </div>
     </nav>
