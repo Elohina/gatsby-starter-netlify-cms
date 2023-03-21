@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import Navbar from './Navbar';
+import arrow from '../img/quinzeflecha.svg';
 
 export default function FullWidthImage(props) {
   const {
@@ -18,24 +19,23 @@ export default function FullWidthImage(props) {
         className='margin-top-0'
         style={{
           display: 'block',
-          height: '100vh',
         }}
       >
-        {img?.url ? (
-          <img
-            src={img}
-            objectFit={'cover'}
-            objectPosition={imgPosition}
-            style={{
-              gridArea: '1/1',
-              // You can set a maximum height for the image, if you wish.
-              height: height,
-              width: '100%',
-            }}
-            // This is a presentational image, so the alt should be an empty string
-            alt=''
-          />
-        ) : (
+        {/* {img ? ( */}
+        {/* <img
+          src={img}
+          objectFit={'cover'}
+          objectPosition={imgPosition}
+          style={{
+            gridArea: '1/1',
+            // You can set a maximum height for the image, if you wish.
+            height: height,
+            width: '100%',
+          }}
+          // This is a presentational image, so the alt should be an empty string
+          alt=''
+        /> */}
+        {/* ) : (
           <GatsbyImage
             image={img}
             objectFit={'cover'}
@@ -52,7 +52,7 @@ export default function FullWidthImage(props) {
             alt=''
             formats={['auto', 'webp', 'avif']}
           />
-        )}
+        )} */}
         {title && (
           <div
             className='stripesBackground'
@@ -64,11 +64,21 @@ export default function FullWidthImage(props) {
               // This centers the other elements inside the hero component
               placeItems: 'center',
               display: 'grid',
-              height: '60%',
+              height: '50vh',
             }}
           >
             {/* Any content here will be centered in the component */}
-            {title && (
+            <img
+              src={img}
+              objectPosition={imgPosition}
+              style={{
+                // You can set a maximum height for the image, if you wish.
+                width: '40%',
+              }}
+              // This is a presentational image, so the alt should be an empty string
+              alt=''
+            />
+            {/* {title && (
               <h1
                 className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen'
                 style={{
@@ -82,7 +92,7 @@ export default function FullWidthImage(props) {
               >
                 {title}
               </h1>
-            )}
+            )} */}
           </div>
         )}
         <Navbar />
@@ -90,11 +100,12 @@ export default function FullWidthImage(props) {
           <div
             style={{
               placeItems: 'center',
-              display: 'block',
+              display: 'flex',
               alignItems: 'center',
               marginTop: '2rem',
               height: '30%',
               fontStyle: 'italic',
+              flexDirection: 'column'
             }}
           >
             {subheading && (
@@ -106,12 +117,22 @@ export default function FullWidthImage(props) {
                   textAlign: 'center',
                   width: '40%',
                   fontWeight: '300',
-                  fontSize: '1.2rem'
+                  fontSize: '1.2rem',
                 }}
               >
                 {subheading}
               </h4>
             )}
+            <img
+              src={arrow}
+              style={{
+                // You can set a maximum height for the image, if you wish.
+                width: '1.5rem',
+                margin: '2rem auto',
+              }}
+              // This is a presentational image, so the alt should be an empty string
+              alt=''
+            />
           </div>
         )}
       </div>

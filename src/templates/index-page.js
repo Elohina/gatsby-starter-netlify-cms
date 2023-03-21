@@ -7,6 +7,7 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
+import logo from '../img/quinzelogo.svg';
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -22,14 +23,14 @@ export const IndexPageTemplate = ({
 
   return (
     <div>
-      <FullWidthImage title={title} subheading={subheading} />
-      <section className="section section--gradient">
-        <div className="container">
+      <FullWidthImage img={logo} title={title} subheading={subheading} />
+      <section className='section section--gradient'>
+        <div className='container'>
           {/* <div className="section"> */}
-            <div className="columns">
-              <div className="column">
-                <div className="content">
-                  {/* <div className="content">
+          <div className='columns'>
+            <div className='column'>
+              <div className='content'>
+                {/* <div className="content">
                     <div className="tile">
                       <h1 className="title">{mainpitch.title}</h1>
                     </div>
@@ -37,7 +38,7 @@ export const IndexPageTemplate = ({
                       <h3 className="subtitle">{mainpitch.description}</h3>
                     </div>
                   </div> */}
-                  {/* <div className="columns">
+                {/* <div className="columns">
                     <div className="column is-12">
                       <h3 className="has-text-weight-semibold is-size-2">
                         {heading}
@@ -45,15 +46,15 @@ export const IndexPageTemplate = ({
                       <p>{description}</p>
                     </div>
                   </div> */}
-                  <Features gridItems={intro.blurbs} />
-                  {/* <div className="columns">
+                <Features gridItems={intro.blurbs} />
+                {/* <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/products">
                         See all products
                       </Link>
                     </div>
                   </div> */}
-                  {/* <div className="column is-12">
+                {/* <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       Latest stories
                     </h3>
@@ -64,8 +65,8 @@ export const IndexPageTemplate = ({
                       </Link>
                     </div>
                   </div> */}
-                </div>
               </div>
+            </div>
             {/* </div> */}
           </div>
         </div>

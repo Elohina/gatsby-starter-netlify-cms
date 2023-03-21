@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Quinze
-image: /img/home-jumbotron.jpg
+image: /img/quinzelogo.svg
 heading: Quinze
 subheading: >
   Kaldi is the coffee store for everyone who believes that great coffee
