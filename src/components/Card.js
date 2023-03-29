@@ -16,6 +16,7 @@ const Card = ({ title, text, author, image }) => {
         style={{
           height: '100%',
           padding: image ? '0 1rem 2rem 1rem' : '2.2rem',
+          //centrando a Andy.. es esto posible?
           textAlign: author === 'Andrea De la Garza' ? 'center' : 'left'
         }}
       >
