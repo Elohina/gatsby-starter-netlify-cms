@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { GatsbyImage } from 'gatsby-plugin-image';
 import Navbar from './Navbar';
 import arrow from '../img/quinzeflecha.svg';
 
@@ -21,38 +20,6 @@ export default function FullWidthImage(props) {
           display: 'block',
         }}
       >
-        {/* {img ? ( */}
-        {/* <img
-          src={img}
-          objectFit={'cover'}
-          objectPosition={imgPosition}
-          style={{
-            gridArea: '1/1',
-            // You can set a maximum height for the image, if you wish.
-            height: height,
-            width: '100%',
-          }}
-          // This is a presentational image, so the alt should be an empty string
-          alt=''
-        /> */}
-        {/* ) : (
-          <GatsbyImage
-            image={img}
-            objectFit={'cover'}
-            objectPosition={imgPosition}
-            style={{
-              gridArea: '1/1',
-              // You can set a maximum height for the image, if you wish.
-              maxHeight: height,
-            }}
-            layout='fullWidth'
-            // You can optionally force an aspect ratio for the generated image
-            aspectratio={3 / 1}
-            // This is a presentational image, so the alt should be an empty string
-            alt=''
-            formats={['auto', 'webp', 'avif']}
-          />
-        )} */}
         {title && (
           <div
             className='stripesBackground'

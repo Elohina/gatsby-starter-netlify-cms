@@ -118,6 +118,15 @@ intro:
         - "Parece que sucedió ayer."
       author: Yamaguchi César
       type: Tiempo
+    - title: QUINCE EN TEXAS
+      text:
+        - '¿Qué tan grande es uno con quince?'
+        - 'Andrea tenía quince cuando decidió que amaba a su profesor, Gerardo, que tenía treinta. Otros quince de diferencia.'
+        - ' 	Yo tenía quince cuando los encontré uno encima del otro en el gimnasio, él metiéndole la mano por debajo de la falda, ella tratando de resistirse pero incapacitada de hacerlo, por la diferencia de fuerza, de experiencia, por la asimetría de los poderes; quién sabe, qué sé yo, quizás por el deseo.'
+        - ' 	Cuando lograron desprenderme de Gerardo, con las manos ensangrentadas, ella gritaba que me detuviera. Quizás para protegerme a mí o, quizás, a él.'
+        - ' 	Por ser negro me juzgaron como adulto, me dieron quince años por intento de homicidio con lesiones graves. A él, quince por abuso de menores. Quizás el amor y el odio maduran a distintas edades.'
+      author: Javier Galatzan Anguita
+      type: Espacio
     - title: (Post) Valentín
       text:
         - "El cubo de goma gris sin agujeros salta conmigo dentro. Es lo suficientemente suave para amortiguar los latidos de mi corazón alarmado. Tuve que renunciar a mi celular para refugiarme en este espacio insonorizado. Se dicen tantas cosas… Que hay dos puertas escondidas en algún lugar de las paredes. Una sirve para dejar entrar el río tóxico, la otra para volar a las estrellas. Son visibles solo para aquellos que reconocen cuál es cuál. Al contrario, hay un enchufe accesible para todos, se puede meter la cabeza hasta las orejas y observar las corrientes anaranjadas. Los edredones de arriba y de abajo se pegan a mi piel, son succionados en un beso interminable. Quiero provocar una ola de envidia entre los que pueden verme desde afuera. Pero nadie está mirando."
@@ -148,14 +157,41 @@ intro:
         - 'Lo sé, ahora me vas a sacar a mí del jardín.'
       author: Margalida Albertí
       type: Dimensiones
-    - title: QUINCE EN TEXAS
+    - title: Chuck chuck
       text:
-        - '¿Qué tan grande es uno con quince?'
-        - 'Andrea tenía quince cuando decidió que amaba a su profesor, Gerardo, que tenía treinta. Otros quince de diferencia.'
-        - ' 	Yo tenía quince cuando los encontré uno encima del otro en el gimnasio, él metiéndole la mano por debajo de la falda, ella tratando de resistirse pero incapacitada de hacerlo, por la diferencia de fuerza, de experiencia, por la asimetría de los poderes; quién sabe, qué sé yo, quizás por el deseo.'
-        - ' 	Cuando lograron desprenderme de Gerardo, con las manos ensangrentadas, ella gritaba que me detuviera. Quizás para protegerme a mí o, quizás, a él.'
-        - ' 	Por ser negro me juzgaron como adulto, me dieron quince años por intento de homicidio con lesiones graves. A él, quince por abuso de menores. Quizás el amor y el odio maduran a distintas edades.'
-      author: Javier Galatzan Anguita
+        - 'Estira la mano para golpear la ventana contigua, pero no llega.'
+        - 'Chuck chuck.'
+        - 'Niña-Niña, ¿estás ahí? Del otro lado, entre los intersticios de la ventilación de la cocina del Byron, se asoman pequeños trozos de ropa, ropa interior. Niña-Niña, no tengo todo el día. Se apoya con fuerza en la ventana para estirar el brazo y hacer chuck chuck, pero sigue sin llegar al cristal. La parte superior de sí se deja caer por gravedad y agobio. Cuelga hacia el exterior. Con el pecho se sostiene en el marco sudado, sudada ella. El cuerpo completo, aunque casi no lleve ropa encima ni se haya separado del suelo casi ninguno de esos quince días. Niña-Niña es una estúpida. Niña-Niña no es de palabra confiable. El desgano la desliza al suelo, se autosucciona al interior y los brazos aún largos-largos siguen sobre su cabeza.'
+      author: Camila Blavi Contreras
+      type: Tiempo
+    - title: Diversión adolescente
+      text:
+        - 'La felicidad era una trampa y nosotros, sabiéndolo, caímos constantemente en su poder. Nada duraba demasiado o nuestras madres se encargaban de recordarnos lo que éramos y en dónde estábamos, y entonces todo lo maravilloso, todo lo imaginado, todo lo vilmente soñado, se iba a la mierda. A veces las pistas también parecían estar en contra de nosotros. Luego de quince minutos de ollies fallidos y de pop shovits inexactos, nuestras tablas y ropas empezaban a mostrar su verdadera identidad por culpa del asfalto. Las zapatillas se destripaban, los trucks se partían, los skates hacían añicos su nariz. Quebrados así por la desgracia de la vida y por la infamia de la edad, regresábamos a casa sufriendo de ansiedad. Pero aunque éramos niños ya éramos viejos, y sabíamos cómo animarnos: bastaba una rola de Bad Religion o el silbido de un bróder llamándonos para ir a asesinar. Y, aunque parecía una locura, eso estaba bien.'
+      author: J. J. Maldonado
+      type: Tiempo
+    - title: Ovejitas
+      text:
+        - 'Soy el único que ayuda al profesor de gimnasia durante el recreo. Afuera, otros niños cuentan ovejitas a gritos: “Una ovejita, dos ovejitas, tres ovejitas…”. El cuartito de los balones parece demasiado pequeño para guardar los trampolines, potros, colchonetas y los otros materiales de clase. Estamos sudando. La puerta de metal tiene tres rendijas. Adentro, huele a cerrado. Tres líneas iluminan su cara.'
+        - 'Nos faltan por ordenar dos cosas y estamos listos. Respira por la boca, se arremanga el chándal, se pone en cuclillas. Me sienta en su muslo izquierdo y compruebo que su aliento huele como el cuartito. Afuera, los niños siguen contando ovejitas: “Catorce ovejitas, quince ovejitas, dieciséis ovejitas…”. Adentro, dos manos me bajan los pantalones. Queman. La puerta también quema.'
+        - '   —Es nuestro secreto, ¿vale?'
+        - '   —Vale. Solo nos queda enrollar las redes del bádminton, ¿verdad?'
+        - '   Afuera, ya nadie cuenta ovejitas.'
+      author: Vicente Ferrer
+      type: Dimensiones
+    - text:
+        - 'En el barrio de las mariposas no se escuchan campanas de medianoche. En el televisor hay aviso de tormenta y afuera llueven tiros. Son las doce y quince. Ardiendo en fiebre me arropo con las alas de punto trigo que me tejió abuela. Duermo con el pecho inundado de alcoholado y la mata de bruja colgada de un oído. Ella me canta despacio y susurrado:'
+        - 'Una mariposita,'
+        - 'que del cielo bajó,'
+        - 'con sus alas extendidas'
+        - 'y en el pico una flor…'
+        - ""
+        - 'Me acaricia los tres lunarcitos que cargo en las mejillas mientras su cantar se eleva y comienza a retumbar entre los montes. Con su voz el eco distante de los tiros en la calle se va metamorfoseando, hasta que poco a poco le crecen alas y vuela por lo más alto hasta desintegrarse y volverse polvo.'
+      author: Rafaelo Cabán
+      type: Tiempo
+    - title: 'La señora Orazia'
+      text:
+        - 'Me preparo para correr de vuelta a casa con Mami. ¿Eso es polvo en los muebles elegantes? Cruzo despacito al salón, pero hay algo que me hace temblar desde las piernas hasta los brazos, algo sentado en uno de los sillones que no me dejan tocar. No la reconocí. ¿Es la señora Orazia? Con piel pálida y ojos blancos, triste, contempla el salón prohibido. Quiero correr, pero mis piernas no se mueven. No me presta atención, solo parece disfrutar del comedor, los muebles y la vajilla de ese tal Luis Quince que tanto cuidó para esos hijos que nunca llegaron, mientras sus huesos siguen en el viejo sillón en el que esperó media vida.'
+      author: Elohina Guevara
       type: Espacio
     - title: Lunes y meñique
       text:
@@ -178,42 +214,6 @@ intro:
         - '—Yo te voy a echar de menos, Lunes.'
         - '—Team 15 forever.'
       author: Carolina Gamazo
-      type: Espacio
-    - title: Chuck chuck
-      text:
-        - 'Estira la mano para golpear la ventana contigua, pero no llega.'
-        - 'Chuck chuck.'
-        - 'Niña-Niña, ¿estás ahí? Del otro lado, entre los intersticios de la ventilación de la cocina del Byron, se asoman pequeños trozos de ropa, ropa interior. Niña-Niña, no tengo todo el día. Se apoya con fuerza en la ventana para estirar el brazo y hacer chuck chuck, pero sigue sin llegar al cristal. La parte superior de sí se deja caer por gravedad y agobio. Cuelga hacia el exterior. Con el pecho se sostiene en el marco sudado, sudada ella. El cuerpo completo, aunque casi no lleve ropa encima ni se haya separado del suelo casi ninguno de esos quince días. Niña-Niña es una estúpida. Niña-Niña no es de palabra confiable. El desgano la desliza al suelo, se autosucciona al interior y los brazos aún largos-largos siguen sobre su cabeza.'
-      author: Camila Blavi Contreras
-      type: Tiempo
-    - title: Diversión adolescente
-      text:
-        - 'La felicidad era una trampa y nosotros, sabiéndolo, caímos constantemente en su poder. Nada duraba demasiado o nuestras madres se encargaban de recordarnos lo que éramos y en dónde estábamos, y entonces todo lo maravilloso, todo lo imaginado, todo lo vilmente soñado, se iba a la mierda. A veces las pistas también parecían estar en contra de nosotros. Luego de quince minutos de ollies fallidos y de pop shovits inexactos, nuestras tablas y ropas empezaban a mostrar su verdadera identidad por culpa del asfalto. Las zapatillas se destripaban, los trucks se partían, los skates hacían añicos su nariz. Quebrados así por la desgracia de la vida y por la infamia de la edad, regresábamos a casa sufriendo de ansiedad. Pero aunque éramos niños ya éramos viejos, y sabíamos cómo animarnos: bastaba una rola de Bad Religion o el silbido de un bróder llamándonos para ir a asesinar. Y, aunque parecía una locura, eso estaba bien.'
-      author: J. J. Maldonado
-      type: Tiempo
-    - title: Ovejitas
-      text:
-        - 'Soy el único que ayuda al profesor de gimnasia durante el recreo. Afuera, otros niños cuentan ovejitas a gritos: “Una ovejita, dos ovejitas, tres ovejitas…”. El cuartito de los balones parece demasiado pequeño para guardar los trampolines, potros, colchonetas y los otros materiales de clase. Estamos sudando. La puerta de metal tiene tres rendijas. Adentro, huele a cerrado. Tres líneas iluminan su cara.'
-        - 'Nos faltan por ordenar dos cosas y estamos listos. Respira por la boca, se arremanga el chándal, se pone en cuclillas. Me sienta en su muslo izquierdo y compruebo que su aliento huele como el cuartito. Afuera, los niños siguen contando ovejitas: “Catorce ovejitas, quince ovejitas, dieciséis ovejitas…”. Adentro, dos manos me bajan los pantalones. Queman. La puerta también quema.'
-        - '   —Es nuestro secreto, ¿vale?'
-        - '   —Vale. Solo nos queda enrollar las redes del bádminton, ¿verdad?'
-        - '   Afuera, ya nadie cuenta ovejitas.'
-      author: Vicente Ferrer
-      type: Dimensiones
-    - title: 'En el barrio de las mariposas no se escuchan campanas de medianoche. En el televisor hay aviso de tormenta y afuera llueven tiros. Son las doce y quince. Ardiendo en fiebre me arropo con las alas de punto trigo que me tejió abuela. Duermo con el pecho inundado de alcoholado y la mata de bruja colgada de un oído. Ella me canta despacio y susurrado:'
-      text:
-        - 'Una mariposita,'
-        - 'que del cielo bajó,'
-        - 'con sus alas extendidas'
-        - 'y en el pico una flor…'
-        - ""
-        - 'Me acaricia los tres lunarcitos que cargo en las mejillas mientras su cantar se eleva y comienza a retumbar entre los montes. Con su voz el eco distante de los tiros en la calle se va metamorfoseando, hasta que poco a poco le crecen alas y vuela por lo más alto hasta desintegrarse y volverse polvo.'
-      author: Rafaelo Cabán
-      type: Tiempo
-    - title: La señora Orazia [fragmento]
-      text:
-        - 'Me preparo para correr de vuelta a casa con Mami. ¿Eso es polvo en los muebles elegantes? Cruzo despacito al salón, pero hay algo que me hace temblar desde las piernas hasta los brazos, algo sentado en uno de los sillones que no me dejan tocar. No la reconocí. ¿Es la señora Orazia? Con piel pálida y ojos blancos, triste, contempla el salón prohibido. Quiero correr, pero mis piernas no se mueven. No me presta atención, solo parece disfrutar del comedor, los muebles y la vajilla de ese tal Luis Quince que tanto cuidó para esos hijos que nunca llegaron, mientras sus huesos siguen en el viejo sillón en el que esperó media vida.'
-      author: Elohina Guevara
       type: Espacio
     - title: Visitas
       text:

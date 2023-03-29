@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
-import github from '../img/github-icon.svg';
-import logo from '../img/logo.svg';
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -27,7 +25,6 @@ const Navbar = () => {
               className='navbar-item'
               style={{
                 padding: '0px',
-
                 paddingLeft: '5rem',
                 paddingRight: '5rem',
               }}
@@ -40,7 +37,6 @@ const Navbar = () => {
               className='navbar-item'
               style={{
                 padding: '0px',
-
                 paddingLeft: '5rem',
                 paddingRight: '5rem',
               }}
@@ -53,7 +49,6 @@ const Navbar = () => {
               className='navbar-item last'
               style={{
                 padding: '0px',
-
                 paddingLeft: '5rem',
                 paddingRight: '5rem',
               }}
