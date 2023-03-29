@@ -20,7 +20,6 @@ export const IndexPageTemplate = ({
   intro,
 }) => {
   // const heroImage = getImage(image) || image;
-
   return (
     <div>
       <FullWidthImage img={logo} title={title} subheading={subheading} />
@@ -83,7 +82,13 @@ IndexPageTemplate.propTypes = {
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
-    blurbs: PropTypes.array,
+    blurbs: PropTypes.shape({
+      image: PropTypes.string,
+      title: PropTypes.string,
+      text: PropTypes.array,
+      author: PropTypes.string,
+      type: PropTypes.string,
+    }),
   }),
 };
 
@@ -141,6 +146,8 @@ export const pageQuery = graphql`
               }
             }
             text
+            author
+            type
           }
           heading
           description

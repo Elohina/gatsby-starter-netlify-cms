@@ -9,6 +9,25 @@ $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
+$font-primary: 'Montserrat', sans-serif
+
+@font-face
+  font-family: $font-primary
+  src: url('/static/fonts/Montserrat-VariableFont_wght.ttf')
+
+p, h1, h2, h3, h4, h5, h6, a, li
+  font-family: $font-primary
+
+.heroSubheading
+  line-height: 1.5
+  padding: 2rem
+  margin: 0 auto
+  text-align: center
+  font-weight: 300
+  font-size: 1.2rem
+
+.credits ul
+  margin: 0 auto
 
 .credits ul li
   list-style: none
@@ -34,18 +53,19 @@ $black: #2b2523
   border-radius: 1.8rem !important
 
 .card .card-title
-  font-size: 1.3rem
+  font-size: 1.1rem
   border-bottom: 2px solid #da0c25
-  padding: 1.5rem
+  padding: 1rem 1.6rem
   h4
     margin-bottom: 0
     color: #da0c25
 
 .card .card-body
-  font-size: 1.2rem
+  font-size: 1rem
   line-height: 1.5
-  padding: 2.7rem
   color: #da0c25
+  display: flex
+  flex-direction: column
 
 .content .taglist
   list-style: none
@@ -186,3 +206,16 @@ $menu-label-color: $white-ter
 @media screen and (min-width: 1024px)
   .cards-grid
     grid-template-columns: 1fr 1fr
+
+  .credits ul
+    width: 50%
+    margin: 0 auto
+
+  .heroSubheading
+    width: 50%
+
+  a.navbar-item
+    border-left: 2px solid #da0c25
+
+  a.navbar-item.last
+    border-right: 2px solid #da0c25

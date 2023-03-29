@@ -6,7 +6,13 @@ import Card from '../components/Card';
 const FeatureGrid = ({ gridItems }) => (
   <div className='cards-grid'>
     {gridItems.map((item) => (
-      <Card key={item.text} title={item.title} text={item.text} />
+      <Card
+        key={item.author}
+        title={item.title}
+        text={item.text}
+        author={item.author}
+        image={item.image}
+      />
     ))}
   </div>
 );
@@ -16,6 +22,8 @@ FeatureGrid.propTypes = {
     PropTypes.shape({
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
       text: PropTypes.string,
+      author: PropTypes.string,
+      title: PropTypes.string,
     })
   ),
 };

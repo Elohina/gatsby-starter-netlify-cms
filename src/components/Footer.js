@@ -21,13 +21,15 @@ const Footer = () => {
                 <h3>©quinze</h3>
                 <ul>
                   <li>
-                    <strong>Diseño:</strong> Antonio Batle
+                    <strong>Equipo organizador: </strong>
+                    Andy de la Garza, Angela Lang, Blanca Marín Zofío, Carolina
+                    Gamazo, Juan Mut, Rafaelo Cabán, Ximena López Bustamante
+                  </li>
+                  <li>
+                    <strong>Diseño:</strong> Antonio Batle L.
                   </li>
                   <li>
                     <strong>Desarrollo Web:</strong> Elohina Guevara
-                  </li>
-                  <li>
-                    (No sé qué más va aquí, quinzeañeres por favor avísenme)
                   </li>
                 </ul>
                 <h3 style={{ fontWeight: '300' }}>

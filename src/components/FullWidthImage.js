@@ -105,24 +105,10 @@ export default function FullWidthImage(props) {
               marginTop: '2rem',
               height: '30%',
               fontStyle: 'italic',
-              flexDirection: 'column'
+              flexDirection: 'column',
             }}
           >
-            {subheading && (
-              <h4
-                style={{
-                  lineHeight: '1.5',
-                  padding: '2rem',
-                  margin: '0 auto',
-                  textAlign: 'center',
-                  width: '40%',
-                  fontWeight: '300',
-                  fontSize: '1.2rem',
-                }}
-              >
-                {subheading}
-              </h4>
-            )}
+            {subheading && <h4 className='heroSubheading'>{subheading}</h4>}
             <img
               src={arrow}
               style={{
