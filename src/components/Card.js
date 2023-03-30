@@ -14,7 +14,6 @@ const Card = ({ title, text, author, image }) => {
       <div
         className='card-body'
         style={{
-          height: author === 'Angela Lang' ? '800px' : '100%',
           padding: image ? '0 1rem 2rem 1rem' : '2.2rem',
           //centrando a Andy.. es esto posible?
           textAlign: author === 'Andrea De la Garza' ? 'center' : 'left'
@@ -26,14 +25,11 @@ const Card = ({ title, text, author, image }) => {
             image={formattedImage}
             width='100%'
             height='100%'
-            style={{
-              flexGrow: '1',
-            }}
             // // You can optionally force an aspect ratio for the generated image
             // aspectratio={3 / 1}
             // // This is a presentational image, so the alt should be an empty string
             alt={author}
-            formats={['png']}
+            formats={['auto', 'webp', 'avif', 'png']}
           />
         ) : (
           text && text.map((t) => <p>{t}</p>)

@@ -89,15 +89,16 @@ intro:
         - 'Montjuïc: por detrás del castillo la sirena de un barco, los graznidos de una cotorra en una palmera. Barceloneta: alguien vocea mojito, una mujer me toca el hombro, masaje, y un joven golpea con brío los tambores y platillos de una batería. Gótico: se cierra la puerta de hierro del ascensor de época del Ateneo, un carro cargado de flores sobre los adoquines de las Ramblas. Parque Güell: un aplauso en el patio de un colegio, un vendedor trina con su pajarito de cerámica, y un bailaor argentino zapatea encima de un rectángulo de madera. La Rambla del Raval: una bandada de palomas vuela cerca de mi cabeza. Tibidabo: una máquina perforadora en el parque de atracciones, las campanadas de la ermita, y una bici que desciende encadenando curvas a gran velocidad. Eixample: los pasos que me adelantan en las escaleras mecánicas de la estación de Provença. '
       author: Yolanda Prieto
       type: Espacio
-    - image: "/img/angela-03.png"
-      title:
-      author: Angela Lang
-      type: Tiempo
     - title: Coleccionista
       type: Espacio
       text:
         - 'Moví con el dedo los labios del muerto: tenía todos los dientes. Entonces, sonrió. Se parecía tanto a mi padre. Rápido arranqué la paleta más débil y la escondí en mi boca. Salí del edificio justo cuando la ambulancia estacionó en la puerta. Esa fue la primera vez que robé uno. Tenía quince años. Miento, la primera vez fue cuando Victoria esperaba con el diente debajo de la almohada al ratón Pérez. Sé que fuiste vos, dijo la madre y nunca más me invitó. Los chicles que mis compañeras de escuela escupían, yo los moldeaba como si fuesen piezas de cerámica y con pegamento los unía a la raíz. ¿Quién de ustedes no ve a su padre en todos lados? Como ese día en que abrí los ojos después del impacto: en la camilla, yo era una hija con la boca muerta. Pero los padres no se pueden coleccionar, ¿o sí?'
       author: Belén López Peiró
+    - title: 'La señora Orazia'
+      text:
+        - 'Me preparo para correr de vuelta a casa con Mami. ¿Eso es polvo en los muebles elegantes? Cruzo despacito al salón, pero hay algo que me hace temblar desde las piernas hasta los brazos, algo sentado en uno de los sillones que no me dejan tocar. No la reconocí. ¿Es la señora Orazia? Con piel pálida y ojos blancos, triste, contempla el salón prohibido. Quiero correr, pero mis piernas no se mueven. No me presta atención, solo parece disfrutar del comedor, los muebles y la vajilla de ese tal Luis Quince que tanto cuidó para esos hijos que nunca llegaron, mientras sus huesos siguen en el viejo sillón en el que esperó media vida.'
+      author: Elohina Guevara
+      type: Espacio
     - title: Tacones
       text:
         - "La quinceañera baila con sus chambelanes y entre canciones se cambia de vestuario. El salón está decorado todo de rojo; mesas, manteles, sillas y hasta las flores del centro de mesa que me dan náuseas. Comienza la ceremonia del último juguete, lo que simboliza el fin de su infancia. Sus padres le regalan una Barbie. Qué mierda, pienso. Llegan los mariachis y la madrina trae una caja con los primeros tacones. El primer paso para convertirte en una mujer de verdad, dice la señora mientras se los pone cual Cenicienta. Más mierda —repito en mi mente."
@@ -136,16 +137,6 @@ intro:
         - "Cura tu puto corazón,"
         - "¡que es moderno ser soltero!"
       author: Aleh Khatskevich
-    - title: Camino a casa
-      text:
-        - "Desde las 8:00, Carolina se había plantado en el parque con un único objetivo: conseguir un hogar para Jack, el perro mezcla de salchicha y algo más que había encontrado hace unos días, temblando y con una pata recogida, bajo las escaleras exteriores de su casa. Sabía que sus padres no le permitirían quedárselo por siempre, pero al menos le dieron tiempo para revisarlo con el veterinario, bañarlo, despulgarlo y curarle la patita, para que estuviera limpio y radiante durante la feria de adopciones donde ahora se había parado junto a su rescatista, con un cartelito de “adóptame” colgando en su cuello. Alrededor de las 10:00, un señor se acercó sosteniendo una pequeña jaula."
-        - "—Mira, este perrito llegó a mi casa, pero no lo puedo tener. Soy alérgico —le dijo."
-        - "Luego llegó una joven con una perrita negra que tiraba enérgicamente de la correa."
-        - "—Me la regaló mi novio, pero me destruye todo —le contó agitada—. No puedo con ella."
-        - "A las 15:00 Carolina miró a Jack, que aún tenía el cartel, y a los otros quince perros que le habían entregado esa mañana."
-        - "—Bueno, a ver qué les decimos a mis padres ahora —les susurró, y todos emprendieron el camino a casa."
-      author: Ana Cristina López C.
-      type: Dimensiones
     - title: CUENTOS DEL JARDÍN
       text:
         - 'Mis quince gatitos gustaban de tomar el sol en el limonero y de dar volteretas sobre la hierba. Me cabían en la mano cuando los acogí. Se hicieron hermosos.'
@@ -188,11 +179,20 @@ intro:
         - 'Me acaricia los tres lunarcitos que cargo en las mejillas mientras su cantar se eleva y comienza a retumbar entre los montes. Con su voz el eco distante de los tiros en la calle se va metamorfoseando, hasta que poco a poco le crecen alas y vuela por lo más alto hasta desintegrarse y volverse polvo.'
       author: Rafaelo Cabán
       type: Tiempo
-    - title: 'La señora Orazia'
+    - title: Camino a casa
       text:
-        - 'Me preparo para correr de vuelta a casa con Mami. ¿Eso es polvo en los muebles elegantes? Cruzo despacito al salón, pero hay algo que me hace temblar desde las piernas hasta los brazos, algo sentado en uno de los sillones que no me dejan tocar. No la reconocí. ¿Es la señora Orazia? Con piel pálida y ojos blancos, triste, contempla el salón prohibido. Quiero correr, pero mis piernas no se mueven. No me presta atención, solo parece disfrutar del comedor, los muebles y la vajilla de ese tal Luis Quince que tanto cuidó para esos hijos que nunca llegaron, mientras sus huesos siguen en el viejo sillón en el que esperó media vida.'
-      author: Elohina Guevara
-      type: Espacio
+        - "Desde las 8:00, Carolina se había plantado en el parque con un único objetivo: conseguir un hogar para Jack, el perro mezcla de salchicha y algo más que había encontrado hace unos días, temblando y con una pata recogida, bajo las escaleras exteriores de su casa. Sabía que sus padres no le permitirían quedárselo por siempre, pero al menos le dieron tiempo para revisarlo con el veterinario, bañarlo, despulgarlo y curarle la patita, para que estuviera limpio y radiante durante la feria de adopciones donde ahora se había parado junto a su rescatista, con un cartelito de “adóptame” colgando en su cuello. Alrededor de las 10:00, un señor se acercó sosteniendo una pequeña jaula."
+        - "—Mira, este perrito llegó a mi casa, pero no lo puedo tener. Soy alérgico —le dijo."
+        - "Luego llegó una joven con una perrita negra que tiraba enérgicamente de la correa."
+        - "—Me la regaló mi novio, pero me destruye todo —le contó agitada—. No puedo con ella."
+        - "A las 15:00 Carolina miró a Jack, que aún tenía el cartel, y a los otros quince perros que le habían entregado esa mañana."
+        - "—Bueno, a ver qué les decimos a mis padres ahora —les susurró, y todos emprendieron el camino a casa."
+      author: Ana Cristina López C.
+      type: Dimensiones
+    - image: "/img/angela-03.png"
+      title:
+      author: Angela Lang
+      type: Tiempo
     - title: Lunes y meñique
       text:
         - 'Uno y cinco están tiradas en el sofá de su casa, delante de una mesa llena de colillas.'
