@@ -229,7 +229,8 @@ intro:
       author: Robert Juan-Cantavella
       Centón compuesto con fragmentos pescados en la página 15 de algunos libros de gente que ha estudiado en el máster; estos (y no en este orden): La mata de Eliana Hernández, [niño rata] de Daniel Bravo A., Lectura fácil de Cristina Morales, Sonata para kamikazes de Giancarlo Poma Linares, Es lo que hay de Begoña Ugalde, Tiempos de David de Alfredo de Cossío y Coníferas de Marta Carnicero Hernanz.
       type: Espacio
-    - text:
+    - title: '246'
+      text:
       - 'Ojalá hubiese demorado quince días en entenderlo. Ojalá no fuesen diez mil cuatrocientos setenta y cuatro kilómetros. Ojalá tu olor se enviara en tu nombre.'
       - 'Si hubiesen sido quince días quizás nuestras narices ya estarían juntas. Faltan cuarenta y cuatro. No voy a ver las horas para no contarlas.'
       - 'Esperaré. Tú también espérame.'
