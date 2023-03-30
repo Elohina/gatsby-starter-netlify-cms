@@ -29,7 +29,6 @@ const Card = ({ title, text, author, image }) => {
             style={{
               flexGrow: '1',
             }}
-            layout='fullWidth'
             // // You can optionally force an aspect ratio for the generated image
             // aspectratio={3 / 1}
             // // This is a presentational image, so the alt should be an empty string
