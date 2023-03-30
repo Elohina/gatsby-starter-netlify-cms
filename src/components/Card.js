@@ -14,7 +14,7 @@ const Card = ({ title, text, author, image }) => {
       <div
         className='card-body'
         style={{
-          height: '100%',
+          height: author === 'Angela Lang' ? '800px' : '100%',
           padding: image ? '0 1rem 2rem 1rem' : '2.2rem',
           //centrando a Andy.. es esto posible?
           textAlign: author === 'Andrea De la Garza' ? 'center' : 'left'
@@ -24,7 +24,6 @@ const Card = ({ title, text, author, image }) => {
           // <img src={formattedImage} />
           <GatsbyImage
             image={formattedImage}
-            objectFit={'cover'}
             width='100%'
             height='100%'
             style={{
@@ -35,7 +34,7 @@ const Card = ({ title, text, author, image }) => {
             // aspectratio={3 / 1}
             // // This is a presentational image, so the alt should be an empty string
             alt={author}
-            formats={['auto', 'webp', 'avif', 'png']}
+            formats={['png']}
           />
         ) : (
           text && text.map((t) => <p>{t}</p>)

@@ -89,7 +89,7 @@ intro:
         - 'Montjuïc: por detrás del castillo la sirena de un barco, los graznidos de una cotorra en una palmera. Barceloneta: alguien vocea mojito, una mujer me toca el hombro, masaje, y un joven golpea con brío los tambores y platillos de una batería. Gótico: se cierra la puerta de hierro del ascensor de época del Ateneo, un carro cargado de flores sobre los adoquines de las Ramblas. Parque Güell: un aplauso en el patio de un colegio, un vendedor trina con su pajarito de cerámica, y un bailaor argentino zapatea encima de un rectángulo de madera. La Rambla del Raval: una bandada de palomas vuela cerca de mi cabeza. Tibidabo: una máquina perforadora en el parque de atracciones, las campanadas de la ermita, y una bici que desciende encadenando curvas a gran velocidad. Eixample: los pasos que me adelantan en las escaleras mecánicas de la estación de Provença. '
       author: Yolanda Prieto
       type: Espacio
-    - image: "/img/texto_angela.png"
+    - image: "/img/angela-03.png"
       title:
       author: Angela Lang
       type: Tiempo
